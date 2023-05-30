@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>标签 | Drophiar&#39;s Blog</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="标签 | Drophiar&#39;s Blog">
+  <title>git操作规范 | Drophiar&#39;s Blog</title>
+  <meta name="keywords" content=" git , 开发规范 ">
+  <meta name="description" content="git操作规范 | Drophiar&#39;s Blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="标签">
@@ -380,19 +380,28 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <article id="post-git操作规范" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">标签</h1>
+        <h1 class="article-title">git操作规范</h1>
     
     <div class="article-meta">
         
         
         
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color4">git</a>
+            
+            <a class="color5">开发规范</a>
+            
+        </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-05-30 10:33:47'>2023-05-30 10:31</time>
+            发布时间 : <time class="date" title='最后更新: 2023-05-30 15:57:47'>2023-05-30 14:18</time>
         
     </div>
     <div class="article-meta">
@@ -414,7 +423,7 @@
     
     <div class="toc-ref">
     
-        
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80"><span class="toc-text">下载地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF"><span class="toc-text">配置信息</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -430,7 +439,16 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>git是一款代码管理工具，同类型的还包括svn。</p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p><strong>Windows</strong> 环境<br><code>https://registry.npmmirror.com/binary.html?path=git-for-windows/</code></p>
+<p><strong>Debian&#x2F;Ubuntu</strong> 环境<br><code>apt install git</code></p>
+<p><strong>Centos</strong> 环境<br><code>yum install git</code></p>
+<p><strong>MacOS</strong> 环境<br><code>brew install git</code></p>
+<h2 id="配置信息"><a href="#配置信息" class="headerlink" title="配置信息"></a>配置信息</h2><p>全局配置信息，只要配置一次，今后无需重复。通常来说，需要配置<strong>用户名</strong> 和 <strong>邮箱</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;your name&quot;</span><br><span class="line">git config --global user.email &quot;your email&quot;</span><br></pre></td></tr></table></figure>
+
+<p>有时候有些项目我们不想要使用系统预先配置的用户名和邮箱，比如和工作相关的项目。因此只要在该项目的根目录处执行以上命令(除去 <code>--global</code>即可)</p>
+
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
     </div>

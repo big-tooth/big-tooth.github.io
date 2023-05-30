@@ -6,7 +6,7 @@
   <link href="http://big-tooth.github.io/atom.xml" rel="self"/>
   
   <link href="http://big-tooth.github.io/"/>
-  <updated>2023-05-30T02:36:48.551Z</updated>
+  <updated>2023-05-30T07:57:47.626Z</updated>
   <id>http://big-tooth.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git操作规范</title>
+    <link href="http://big-tooth.github.io/2023/05/30/git%E6%93%8D%E4%BD%9C%E8%A7%84%E8%8C%83/"/>
+    <id>http://big-tooth.github.io/2023/05/30/git%E6%93%8D%E4%BD%9C%E8%A7%84%E8%8C%83/</id>
+    <published>2023-05-30T06:18:30.222Z</published>
+    <updated>2023-05-30T07:57:47.626Z</updated>
+    
+    <content type="html"><![CDATA[<p>git是一款代码管理工具，同类型的还包括svn。</p><h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p><strong>Windows</strong> 环境<br><code>https://registry.npmmirror.com/binary.html?path=git-for-windows/</code></p><p><strong>Debian&#x2F;Ubuntu</strong> 环境<br><code>apt install git</code></p><p><strong>Centos</strong> 环境<br><code>yum install git</code></p><p><strong>MacOS</strong> 环境<br><code>brew install git</code></p><h2 id="配置信息"><a href="#配置信息" class="headerlink" title="配置信息"></a>配置信息</h2><p>全局配置信息，只要配置一次，今后无需重复。通常来说，需要配置<strong>用户名</strong> 和 <strong>邮箱</strong></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;your name&quot;</span><br><span class="line">git config --global user.email &quot;your email&quot;</span><br></pre></td></tr></table></figure><p>有时候有些项目我们不想要使用系统预先配置的用户名和邮箱，比如和工作相关的项目。因此只要在该项目的根目录处执行以上命令(除去 <code>--global</code>即可)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;git是一款代码管理工具，同类型的还包括svn。&lt;/p&gt;
+&lt;h2 id=&quot;下载地址&quot;&gt;&lt;a href=&quot;#下载地址&quot; class=&quot;headerlink&quot; title=&quot;下载地址&quot;&gt;&lt;/a&gt;下载地址&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt; 环境&lt;br</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="http://big-tooth.github.io/tags/git/"/>
+    
+    <category term="开发规范" scheme="http://big-tooth.github.io/tags/%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
   
   <entry>
     <title>NC65主子表单据开发</title>
